@@ -28,9 +28,9 @@
 
 {
 
-  *"username": string <- юзернейм,
+   "username": string <- юзернейм,
   
-  *"password": string <- пароль
+   "password": string <- пароль
   
 }
 
@@ -38,9 +38,9 @@
 
 {
 
-  *"access_token": string <- jwt токен,
+   "access_token": string <- jwt токен,
   
-  *"token_type": string = "bearer" <- тип токена
+   "token_type": string = "bearer" <- тип токена
   
 }
 
@@ -49,11 +49,11 @@
 
 {
 
-  *"username": string <- юзернейм активного пользователя,
+   "username": string <- юзернейм активного пользователя,
   
-  *"email": string <- электронная почта активного пользователя,
+   "email": string <- электронная почта активного пользователя,
   
-  *"disabled": bool <- действительность jwt токена
+   "disabled": bool <- действительность jwt токена
   
 }
 
