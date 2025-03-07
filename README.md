@@ -25,12 +25,14 @@
 ## Примеры использования
 #### /token
 На вход:
+
 {
   "username": string <- юзернейм,
   "password": string <- пароль
 }
 
 На выход:
+
 {
   "access_token": string <- jwt токен,
   "token_type": string = "bearer" <- тип токена
@@ -38,6 +40,7 @@
 
 #### /users/me
 На выход:
+
 {
   "username": string <- юзернейм активного пользователя,
   "email": string <- электронная почта активного пользователя,
