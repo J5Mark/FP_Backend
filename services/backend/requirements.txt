@@ -2,6 +2,6 @@ fastapi[all]
 uvicorn
 pydantic
 passlib[bcrypt]
-supabase
 python-multipart
 python-jose[cryptography]
+psycopg[binary,pool]
