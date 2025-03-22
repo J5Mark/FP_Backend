@@ -1,0 +1,9 @@
+services:
+
+  backend:
+    build: ./services/backend
+    network_mode: host
+    ports:
+      - 5000:5000
+    volumes:
+      - ./services/backend:/app

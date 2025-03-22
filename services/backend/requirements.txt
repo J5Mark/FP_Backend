@@ -1,0 +1,7 @@
+fastapi[all]
+uvicorn
+pydantic
+passlib[bcrypt]
+python-multipart
+python-jose[cryptography]
+psycopg[binary,pool]
